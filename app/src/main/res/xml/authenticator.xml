@@ -1,0 +1,17 @@
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+                       android:accountPreferences="@xml/prefs"
+                       android:accountType="com.example.uberv.customaccountdemo"
+                       android:icon="@drawable/ic_launcher"
+                       android:label="@string/label"
+                       android:smallIcon="@drawable/ic_launcher"/>
+    <!--
+    - accountType is a unique name to identify our account type.
+      Whenever some app wants to authenticate with us, it needs to use
+      this name when approaching the AccountManager.
+    - icon and smallIcon are icons for the account to be seen on the device’s
+      Settings page and on the account approve page (more on that later).
+    - label is the string that represent our account when listed on the device’s Setting’s page.
+    - accountPreferences is a reference to a Preferences XML. This will be shown when accessing
+      the account’s preferences from the device Settings screen, allowing the user more control
+      over the account.
+      -->

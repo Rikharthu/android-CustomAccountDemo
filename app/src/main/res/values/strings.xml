@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Custom Account Demo</string>
+    <string name="title_activity_authenticator">AuthenticatorActivity</string>
+    <string name="label">My Custom Account</string>
+</resources>
